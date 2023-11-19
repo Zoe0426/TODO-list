@@ -1,0 +1,9 @@
+.sbtn {
+  width: 161px;
+  height: 35px;
+  background-color: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-radius: 30px;
+	cursor: pointer;
+}

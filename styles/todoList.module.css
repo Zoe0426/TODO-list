@@ -1,0 +1,99 @@
+.title {
+  color: var(--white);
+  text-align: center;
+  margin: 40px 0 22px 0;
+}
+
+.inputContent {
+  margin: 0 auto;
+  width: 460px;
+}
+
+.wrap {
+  width: 430px;
+  height: 214px;
+  overflow-y: scroll;
+  margin-top: 26px;
+}
+
+/* 全部滾動條的寬度 */
+.wrap::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 滾動條的背景色 */
+.wrap::-webkit-scrollbar-track {
+  background: var(--bgc);
+}
+
+/* 滾動條本身的顏色、圓角大小 */
+.wrap::-webkit-scrollbar-thumb {
+  background: var(--main);
+  border-radius: 10px;
+}
+
+.container {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #fff;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.checkbox:checked:before {
+  content: "v";
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.count {
+  text-align: end;
+}
+
+.item {
+  display: flex;
+  height: 29px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  border-bottom: 0.8px solid var(--main);
+  position: relative;
+}
+
+.linethrough {
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.info {
+  display: flex;
+}
+
+.count {
+  color: var(--main);
+}

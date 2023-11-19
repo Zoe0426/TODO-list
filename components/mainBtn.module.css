@@ -1,0 +1,9 @@
+.mbtn {
+  width: 92px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: var(--secondary);
+	color: var(--white);
+	border: none;
+	cursor: pointer;
+}

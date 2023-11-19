@@ -1,0 +1,11 @@
+.error {
+	width: 100%;
+	height: 25px;
+  color: var(--red);
+}
+
+.btnContent{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}

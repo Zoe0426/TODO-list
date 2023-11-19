@@ -1,0 +1,30 @@
+.card {
+  width: 336px;
+  min-height: 359px;
+  background-color: var(--bgclt);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 82px;
+}
+
+.title {
+  width: 106px;
+  height: 23px;
+  margin: 0 auto;
+  margin-top: 56px;
+  background-color: var(--secondary);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 48px;
+  width: 288px;
+}
