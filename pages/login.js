@@ -10,7 +10,6 @@ export default function login() {
       </SignCard>
       <p>帳號：abc123@gmail.com</p>
       <p>密碼：abc123</p>
-      <p></p>
     </>
   );
 }
